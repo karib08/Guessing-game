@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+
+    background: linear-gradient(135deg, #0f172a, #1e1b4b, #312e81);
+}
+
+h1 {
+    margin: 25px 0;
+    font-size: 36px;
+    font-weight: 800;
+    color: #c4b5fd;
+    text-shadow: 0 0 20px #8b5cf6;
+}
+
+p {
+    color: #cbd5e1;
+    margin: 15px;
+    font-size: 16px;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+    padding: 25px 45px;
+    margin: 20px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 15px;
+}
+
+li {
+    padding: 7px;
+    color: #e2e8f0;
+}
+
+.firstdiv {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: rgba(139,92,246,0.15);
+    border: 1px solid #6366f1;
+    border-radius: 15px;
+}
+
+button {
+    padding: 12px 28px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #6366f1, #a855f7);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 5px 20px #8b5cf6;
+}
+
+a {
+    color: #93c5fd;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #e9d5ff;
+    text-decoration: underline;
+}
+
+body:has(script[src="guess.js"]) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body:has(script[src="guess.js"]) h1 {
+    padding: 35px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid #6366f1;
+    border-radius: 20px;
+}
